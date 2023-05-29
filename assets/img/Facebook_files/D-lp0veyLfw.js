@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("LSDeleteFbEvent",["LSClearEventStartAndEndTime"],(function(a,b,c,d,e,f){function a(){var a=arguments,c=a[a.length-1];c.n;var d=[];return c.seq([function(d){return c.seq([function(d){return c.sp(b("LSClearEventStartAndEndTime"),a[0])},function(b){return c.fe(c.db.table(200).fetch([[[a[0]]]]),function(a){return a["delete"]()})},function(b){return c.fe(c.db.table(202).fetch([[[a[0]]]]),function(a){return a["delete"]()})},function(b){return c.fe(c.db.table(201).fetch([[[a[0]]]]),function(a){return a["delete"]()})},function(b){return c.fe(c.db.table(238).fetch([[[a[0]]]]),function(a){return a["delete"]()})}])},function(a){return c.resolve(d)}])}c=a;f["default"]=c}),66);

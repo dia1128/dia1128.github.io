@@ -10071,8 +10071,8 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 80 rem;
+    max-height: 50 rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
@@ -10119,6 +10119,7 @@ p.lead {
 section.resume-section {
   display: flex;
   align-items: center;
+  
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 5rem;
@@ -10142,3 +10143,26 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 260px;
+}
+
+
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
